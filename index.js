@@ -16,6 +16,7 @@ function johnLennonFacts(facts){
   while (facts.length() > myArray){
     myArray.push(facts[0] + "!!!"); // probably wrong
   }
+  return myArray;
 }
 
 function iLoveTheBeatles(number){
@@ -25,6 +26,8 @@ function iLoveTheBeatles(number){
     number++;
   }
   while(number < 15);
+  
+  return emptyArray;
 }
 
   // for (int i = 0; i < musicians.length(); i++){
