@@ -14,7 +14,7 @@ function johnLennonFacts(facts){
   var myArray = [];
  
   while (facts.length() > myArray){
-    myArray.push("!!!");
+    myArray.push(facts[0] + "!!!"); // probably wrong
   }
 }
 
